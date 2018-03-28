@@ -1,0 +1,231 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Isla Delphiino
+</name>
+</assembly>
+<members>
+<member name="T:Isla_Delphiino.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.CafeCn">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.CafeKr">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.CafeStd">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.CafeTw">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.DFHeiE">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_B">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_DB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_EB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_L">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_M">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_NewRodin_Pro_UB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_B">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_DB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_EB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_L">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_M">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.FOT_RodinBokutoh_Pro_UB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.Nintendo_DS_BIOS">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.nintendo_ext_003">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.nintendo_ext_LE_003">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.nintendo_NTLG_DB_001">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.nintendo_udsg_r_std_003">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_B">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_DB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_EB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_L">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_M">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.RodinBokutohPro_UB">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.SQR721N">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.super_smash_4_1_by_pokemon_diamond_d7zxu6d">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemBottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemButton">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemButtonHighlight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemCurrentPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemMajorOption">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemNavigationButton">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemNext">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemOtherPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemPrevious">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Isla_Delphiino.My.Resources.Resources.systemTop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

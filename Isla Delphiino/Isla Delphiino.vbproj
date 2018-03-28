@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82872814-FAAF-4DC4-985D-5A5B732B8F61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Isla_Delphiino.My.MyApplication</StartupObject>
+    <RootNamespace>Isla_Delphiino</RootNamespace>
+    <AssemblyName>Isla Delphiino</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Isla Delphiino.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Isla Delphiino.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>donHolder.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.vb">
+      <DependentUpon>mainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\CafeCn.ttf" />
+    <None Include="Resources\CafeKr.ttf" />
+    <None Include="Resources\CafeStd.ttf" />
+    <None Include="Resources\CafeTw.ttf" />
+    <None Include="Resources\DFHeiE.ttc" />
+    <None Include="Resources\FOT-NewRodin Pro B.otf" />
+    <None Include="Resources\FOT-NewRodin Pro DB.otf" />
+    <None Include="Resources\FOT-NewRodin Pro EB.otf" />
+    <None Include="Resources\FOT-NewRodin Pro L.otf" />
+    <None Include="Resources\FOT-NewRodin Pro M.otf" />
+    <None Include="Resources\FOT-NewRodin Pro UB.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro B.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro DB.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro EB.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro L.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro M.otf" />
+    <None Include="Resources\FOT-RodinBokutoh Pro UB.otf" />
+    <None Include="Resources\Nintendo-DS-BIOS.ttf" />
+    <None Include="Resources\nintendo_ext_003.ttf" />
+    <None Include="Resources\nintendo_ext_LE_003.ttf" />
+    <None Include="Resources\nintendo_NTLG-DB_001.ttf" />
+    <None Include="Resources\nintendo_udsg-r_std_003.ttf" />
+    <None Include="Resources\RodinBokutohPro-B.ttf" />
+    <None Include="Resources\RodinBokutohPro-DB.ttf" />
+    <None Include="Resources\RodinBokutohPro-EB.ttf" />
+    <None Include="Resources\RodinBokutohPro-L.ttf" />
+    <None Include="Resources\RodinBokutohPro-M.ttf" />
+    <None Include="Resources\RodinBokutohPro-UB.ttf" />
+    <None Include="Resources\SQR721N.TTF" />
+    <None Include="Resources\super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="donHolder.ico" />
+    <None Include="Resources\systemNavigationButton.png" />
+    <None Include="Resources\systemMajorOption.png" />
+    <None Include="Resources\systemCurrentPage.png" />
+    <None Include="Resources\systemButtonHighlight.png" />
+    <None Include="Resources\systemButton.png" />
+    <None Include="Resources\systemBottom.png" />
+    <None Include="Resources\systemBackground.png" />
+    <None Include="Resources\systemTop.png" />
+    <None Include="Resources\systemPrevious.png" />
+    <None Include="Resources\systemOtherPage.png" />
+    <None Include="Resources\systemNext.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

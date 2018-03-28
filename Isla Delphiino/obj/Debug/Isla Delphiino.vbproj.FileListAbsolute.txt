@@ -1,0 +1,11 @@
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\bin\Debug\Isla Delphiino.exe.config
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\bin\Debug\Isla Delphiino.exe
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\bin\Debug\Isla Delphiino.pdb
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\bin\Debug\Isla Delphiino.xml
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla Delphiino.vbprojResolveAssemblyReference.cache
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla_Delphiino.mainForm.resources
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla_Delphiino.Resources.resources
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla Delphiino.vbproj.GenerateResource.Cache
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla Delphiino.exe
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla Delphiino.xml
+D:\Programming\Isla Delphiino\Isla Delphiino\Isla Delphiino\obj\Debug\Isla Delphiino.pdb
